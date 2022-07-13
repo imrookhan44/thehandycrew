@@ -1,0 +1,63 @@
+.section-padding {
+    padding-bottom: 40px !important;
+    padding-top: 40px !important;
+
+}
+
+@media screen and(min-width: 768px) {
+
+    .col-md-6 {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+
+    :root {
+        --color-black: #000;
+        --color-white: #fff;
+        --color-light-white: hsla(0, 0%, 100%, .7);
+        --color-off-white: #f5f5f5;
+        --color-green: #db4c25;
+        --ff-Raleway: "Raleway", sans-serif;
+        --f-bold: bold;
+        --f-size-09rem: 0.9rem;
+        --line-height: 1.5rem;
+    }
+
+    :root {
+
+        --animate-duration: 1s;
+        --animate-delay: 1s;
+        --animate-repeat: 1;
+    }
+}
+
+.custom-input {
+    background: #f5f5f5;
+    background: var(--color-off-white);
+    border: 1px solid #000;
+    border: 1px solid var(--color-black);
+    border-radius: 4px;
+    color: #000;
+    color: var(--color-black);
+    height: 45px;
+    overflow: hidden;
+    padding: 15px;
+    width: 100%;
+}
+
+#animated {
+    animation-duration: 1s;
+    animation-delay: 1.7s;
+
+
+}
+
+.button,
+.button:hover {
+    transition: all .5s ease;
+}
+
+.bounce {
+    -webkit-animation: bounce 3s linear infinite !important;
+    animation: bounce 3s linear infinite !important;
+}

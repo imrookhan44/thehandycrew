@@ -1,0 +1,26 @@
+@media (min-width: 992px) {
+    .col-lg-5 {
+        flex: 0 0 auto;
+        width: 41.66666667%;
+
+    }
+}
+
+@media (min-width: 768px) {
+
+    .col-md-12 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+}
+
+.carousel-wrapper {
+    padding-bottom: 40px !important;
+    padding-top: 40px !important;
+}
+
+.services-section {
+    margin: 10px 15% !important;
+
+
+}

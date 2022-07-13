@@ -1,0 +1,15 @@
+.button,
+.button:hover {
+    transition: all .5s ease;
+}
+.button:hover {
+    box-shadow: 0 2px 10px #000000c2;
+    -webkit-transform: scale(1.03) translateY(-5px);
+    transform: scale(1.03) translateY(-5px);
+}
+.services-img img {
+    border-radius: 4px;
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}

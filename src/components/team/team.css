@@ -1,0 +1,85 @@
+:root {
+    --color-black: #000;
+    /* --color-white: #fff; */
+    /* --color-light-white: hsla(0,0%,100%,.7); */
+    --color-off-white: #f5f5f5;
+    --color-green: #db4c25;
+    --ff-Raleway: "Raleway", sans-serif;
+    --f-bold: bold;
+    --f-size-09rem: 0.9rem;
+    --line-height: 1.5rem;
+}
+.team-section{
+    background-color: black;
+}
+
+.team-box {
+    background: linear-gradient(135deg, #000, #0c0c0ccf);
+    border: 1px solid hsla(0, 0%, 100%, .2);
+    border-radius: 4px;
+    box-shadow: -2px 4px 0 0 var(--color-green);
+    color: #fff;
+    text-align: center;
+    transition: all .5s ease;
+}
+@media (min-width: 992px) {
+
+.col-lg-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+}
+}
+
+
+.team-box .content-team-box {
+    display: grid;
+    margin-top: 30px;
+    padding: 0 10px;
+    place-content: center;
+}
+.team-box h4 {
+    border-bottom: 1px solid hsla(0,0%,100%,.2);
+    margin: 0 15px 1.5rem;
+}
+.team-box .item-team-box {
+    grid-gap: 25px;
+    display: flex;
+    margin-bottom: 30px;
+}
+.team-box .social-team-box {
+    border-top: 1px solid hsla(0, 0%, 100%, .2);
+    display: flex;
+    margin: 0 15px;
+    place-content: center;
+    gap: 2rem;
+    
+}
+
+
+::-webkit-scrollbar-track {
+    background-color: #0a0909 !important;
+    /* background-color: var(--color-green); */
+}
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #db4c25 !important;
+    background-color: red
+    
+}
+.team-box .social-team-box div {
+    cursor: pointer;
+}
+.team-box .item-team-box {
+    grid-gap: 25px;
+    display: flex;
+    margin-bottom: 30px;
+}
+.team-box:hover {
+    box-shadow: 0 0 0 3px var(--color-green);
+    -webkit-transform: translateY(-3px);
+    transform: translateY(-3px);
+    transition: all .5s ease;
+}
